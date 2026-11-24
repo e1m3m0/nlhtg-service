@@ -463,9 +463,66 @@ export class App {
           ]
         }
       ]
+    }, {
+      id: 5,
+      tabLabel: 'Un Hogar Sin Ti',
+      title: 'Un Hogar Sin Ti',
+      artist: 'Grupo Grace & Emanuel Deliser',
+      sections: [
+        {
+          label: 'Verse 1',
+          lines: [
+            'Si encuentras desorden',
+            'En mi corazón',
+            'Tú puedes hacer',
+            'Lo que sientas mejor',
+            'Cambiar los colores',
+            'O los muebles que hay',
+            'Moverlos de lugar',
+            'Hacia otro lugar'
+          ]
+        },
+        {
+          label: 'Verse 2',
+          lines: [
+            'Abrir las ventanas',
+            'Y que entre la luz',
+            'Y que otros puedan ver',
+            'Que aqui vives solo tu',
+            'Que tu eres dueño',
+            'Y que siempre seras',
+            'Decirlo no está demás',
+            'Nunca va a estar demás'
+          ]
+        },
+        {
+          label: 'Chorus',
+          lines: [
+            'Podemos plantar las flores',
+            'Crear un jardín',
+            'Comer de tus frutos',
+            'Correr por ahí',
+            'Tener conversaciones',
+            'Que nunca tengan fin',
+            'Y que se traten de ti',
+            'Y no tanto de mí'
+          ]
+        },
+        {
+          label: 'Bridge',
+          lines: [
+            'Disfruto estar en tus brazos',
+            'Yo me deleito en ti',
+            'Prometo ser cuidadoso',
+            'Con lo que entra en mí',
+            'Y ahora entiendo',
+            'Que no existe un hogar sin ti'
+          ]
+        }
+      ]
     }
   ]);
-
+  
   currentSong = computed(() => this.songs()[this.activeSongIndex()]);
 
   selectSong(index: number) {
